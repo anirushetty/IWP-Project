@@ -39,12 +39,14 @@ export default function Header(props) {
             navigate("/hotels", {state:{destination,date,options}})
       }
 
+     
+
     return (
         <div>
             <div className="header">
                 <div className="headerContainer">
                     <div className="headerList ">
-                        <div className="headerListItems active">
+                        <div className="headerListItems ">
                             <span>Stays</span>
                         </div>
                         <div className="headerListItems">
@@ -81,7 +83,7 @@ export default function Header(props) {
                                 className="date"
                             />}                </div>
                         <div className="headerSearchItem">
-                            <span onClick={() =>setOpenOptions(!openOptions)} className="headetSearchtext">{`${options.adult} - adult  {'\t'} ${options.children} - children ${options.room} - room`} </span>
+                            <span onClick={() =>setOpenOptions(!openOptions)} className="headetSearchtext">{`${options.adult} - adult   ${options.children} - children ${options.room} - room`} </span>
                             {openOptions && <div className="options">
                                 <div className="optionItem">
                                     <span className="optionText">Adult</span>

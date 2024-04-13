@@ -64,13 +64,7 @@ export default function List() {
           </div>
           <div className="listResult">
             <SearchItem/>
-            <SearchItem/>
-            <SearchItem/>
-            <SearchItem/>
-            <SearchItem/>
-            <SearchItem/>
-            <SearchItem/>
-            <SearchItem/>
+          
           </div>
         </div>
       </div>
